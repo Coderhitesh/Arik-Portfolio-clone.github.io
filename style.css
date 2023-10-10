@@ -11,6 +11,23 @@ body {
     position: relative;
 }
 
+/* cursor style  */
+
+.cur{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 99999999999999999;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
 /* fixed button style  */
 
 #avai {
